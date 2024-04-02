@@ -1,0 +1,16 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 400%;
+    text-shadow: -5px -4px 3px #658;
+}
+
+span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+p {
+    line-height: 150%;
+    text-align: justify;
+}
