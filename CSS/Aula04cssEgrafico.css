@@ -1,0 +1,18 @@
+h1 {
+    border-top: 5px solid pink;
+    border-bottom: 5px dotted blue;
+    border-left: 5px double green;
+    border-right: 5px dashed red;
+}
+
+header p {
+    border-top: 5px inset black;
+    border-bottom: 5px inset black;
+    border-right: 5px double black;
+    border-left: 5px double black;
+}
+
+p {
+    border: 5px solid black;
+    border-radius: 10px;
+}
