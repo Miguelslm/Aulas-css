@@ -17,3 +17,7 @@ h2 {
 li {
     color: rgb(0, 0, 56);
 }
+
+p {
+    text-align: justify;
+}
