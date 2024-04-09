@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    margin: 15px;
+    background-color: rgba(3, 3, 3, 0.521);
+    color: aliceblue;
+    border-top: 2px red solid;
+    border-left: 5px red solid;
+    border-right: 5px red solid;
+    border-bottom: 14px red solid;
+    padding: 20px;
+}
+
