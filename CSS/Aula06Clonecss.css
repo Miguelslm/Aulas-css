@@ -1,0 +1,22 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.Box1 {
+    box-sizing: content-box;
+    background-color: gray;
+    border: 1px red solid;
+    height: 400px;
+    width: 400px;
+
+}
+
+.Box2 {
+    
+    background-color: aqua;
+    border: 15px rgb(0, 82, 82) solid ;
+    height: 400px;
+    width: 400px;
+
+}
