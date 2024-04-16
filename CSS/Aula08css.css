@@ -1,0 +1,19 @@
+input:focus {
+    color: purple;
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+a:link {
+text-decoration: none;
+color: red;
+}
+p:active{
+    font-size: 15px;
+    color: darkmagenta;
+}
+
+p:visited {
+    color: blue;
+}

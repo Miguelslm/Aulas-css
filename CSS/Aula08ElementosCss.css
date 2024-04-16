@@ -1,0 +1,12 @@
+p::after {
+    content: ' textinho';
+}
+
+p::before {
+    content: ' Outro textinho';
+}
+
+p.Dark::first-letter {
+    color: red;
+    font-size: 15PX;
+}
