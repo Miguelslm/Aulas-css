@@ -1,5 +1,5 @@
 .container {
-    height: 100%;
+    height: 100vh;
     background-color: aliceblue;
     font-size: 2rem;
     display: grid;
@@ -7,9 +7,44 @@
     grid-template-rows: repeat(6, auto);
     gap: 5px;
     grid-template-areas: 
-    "1lin 1lin 1lin"
-    "2col 2 lin = 4 col lin = 4 col"
-    "2 lin = 4 col 2 lin = 4 col 2col"
-    "2 lin 2 lin 2 lin"
-    ;
+    "UmLin UmLin UmLin UmLin"
+    "twocolorage TwolinfourColgray TwolinfourColgray TwolinfourColgray"
+    "TwolinfourColblue TwolinfourColblue TwolinfourColblue twocolgreen"
+    "twocol twocol twocol twocol";
+}
+
+.UmLin{
+    background-color: aqua;
+    grid-area: UmLin;
+    text-align: center;
+}
+
+.twocolorage {
+    background-color: orangered;
+    grid-area: twocolorage;
+    text-align: center;
+}
+
+.TwolinfourColgray{
+    background-color: gray;
+    grid-area: TwolinfourColgray;
+    text-align: center;
+}
+
+.TwolinfourColblue {
+    background-color: blue;
+    grid-area: TwolinfourColblue;
+    text-align: center;
+}
+
+.twocolgreen {
+    background-color: green;
+    grid-area: twocolgreen;
+    text-align: center;
+}
+
+.twocol {
+    background-color: gray;
+    grid-area: twocol;
+    text-align: center;
 }
