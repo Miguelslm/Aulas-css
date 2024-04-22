@@ -1,0 +1,15 @@
+.container {
+    height: 100%;
+    background-color: aliceblue;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 5px;
+    grid-template-areas: 
+    "1lin 1lin 1lin"
+    "2col 2 lin = 4 col lin = 4 col"
+    "2 lin = 4 col 2 lin = 4 col 2col"
+    "2 lin 2 lin 2 lin"
+    ;
+}
