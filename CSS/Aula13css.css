@@ -1,0 +1,12 @@
+.container {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows:repeat(3, 200px) ;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    grid-auto-flow: column;
+}

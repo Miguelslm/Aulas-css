@@ -3,14 +3,19 @@
     background-color: aliceblue;
     font-size: 2rem;
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     gap: 5px;
     grid-template-areas: 
-    "UmLin UmLin UmLin UmLin"
-    "twocolorage TwolinfourColgray TwolinfourColgray TwolinfourColgray"
-    "TwolinfourColblue TwolinfourColblue TwolinfourColblue twocolgreen"
-    "twocol twocol twocol twocol";
+    "UmLin UmLin UmLin UmLin UmLin UmLin"
+    "twocolorage twocolorage TwolinfourColgray TwolinfourColgray TwolinfourColgray TwolinfourColgray"
+    "twocolorage twocolorage TwolinfourColgray TwolinfourColgray TwolinfourColgray TwolinfourColgray"
+    "TwolinfourColblue TwolinfourColblue TwolinfourColblue TwolinfourColblue twocolgreen twocolgreen"
+    "TwolinfourColblue TwolinfourColblue TwolinfourColblue TwolinfourColblue twocolgreen twocolgreen"
+    "twocol twocol twocol twocol twocol twocol"
+    "twocol twocol twocol twocol twocol twocol";
+    ;
+    
 }
 
 .UmLin{
