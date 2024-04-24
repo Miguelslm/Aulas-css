@@ -1,0 +1,11 @@
+.but {
+    color: aliceblue;
+    background-color: blueviolet;
+    border:2px solid blueviolet;
+    border-radius: 10%;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: rgb(165, 102, 224);
+}
